@@ -31,7 +31,6 @@ function apt_install(){
   mkdir -p "$apt_cache_dir/archives/partial"
   mkdir -p "$apt_state_dir/lists/partial"
   
-  apt-get update
   apt-get install nodejs
   apt-get install npm
   
